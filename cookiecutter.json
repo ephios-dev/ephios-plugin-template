@@ -1,5 +1,5 @@
 {
-  "app_name": "my-ephios-plugin",
+  "app_name": "ephios_mycoolplugin",
   "description": "My plugin does cool stuff",
   "author": "Jon Doe <jondoe@example.com>",
   "license": "MIT"

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "{{ cookiecutter.app_name }}"
+name = "{{ cookiecutter.app_name|replace('_', '-') }}"
 version = "0.1.0"
 description = "{{ cookiecutter.description }}"
 authors = ["{{ cookiecutter.author }}"]

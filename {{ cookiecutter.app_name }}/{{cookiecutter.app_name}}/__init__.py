@@ -1,7 +1,7 @@
 from ephios.core.plugins import PluginConfig
 
 
-class {{ cookiecutter.app_name }}App(PluginConfig):
+class AppConfig(PluginConfig):
     name = "{{ cookiecutter.app_name }}"
 
     class EphiosPluginMeta:
