@@ -13,4 +13,4 @@ class AppConfig(PluginConfig):
         from . import signals  # NOQA
 
 
-default_app_config = "{{ cookiecutter.app_name }}.{{ cookiecutter.app_name }}App"
+default_app_config = "{{ cookiecutter.app_name }}.AppConfig"
