@@ -7,7 +7,6 @@ license = "{{ cookiecutter.license }}"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-ephios = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 
