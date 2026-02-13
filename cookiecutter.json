@@ -1,6 +1,7 @@
 {
   "app_name": "ephios_mycoolplugin",
   "description": "My plugin does cool stuff",
-  "author": "Jon Doe <jondoe@example.com>",
+  "author_name": "Jon Doe",
+  "author_email": "jondoe@example.com",
   "license": "MIT"
 }

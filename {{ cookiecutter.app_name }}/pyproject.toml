@@ -2,7 +2,9 @@
 name = "{{ cookiecutter.app_name|replace('_', '-') }}"
 dynamic = ["version"]
 description = "{{ cookiecutter.description }}"
-authors = ["{{ cookiecutter.author }}"]
+authors = [
+    {name="{{ cookiecutter.author_name }}", email="{{ cookiecutter.author_email }}"},
+]
 license = "{{ cookiecutter.license }}"
 readme = "README.md"
 

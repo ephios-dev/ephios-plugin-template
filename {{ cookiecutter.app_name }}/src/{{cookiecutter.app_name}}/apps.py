@@ -6,7 +6,7 @@ class PluginApp(PluginConfig):
 
     class EphiosPluginMeta:
         name = "{{ cookiecutter.app_name }}"
-        author = "{{ cookiecutter.author }}"
+        author = "{{ cookiecutter.author_name }}"
         description = "{{ cookiecutter.description }}"
         visible = True
         force_enabled = False

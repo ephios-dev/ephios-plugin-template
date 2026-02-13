@@ -1,5 +1,5 @@
 # {{ cookiecutter.app_name }} locale file for German (de)
-# Copyright (C) {{ cookiecutter.author }}
+# Copyright (C) {{ cookiecutter.author_name }}
 # This file is distributed under the same license as the PACKAGE package.
 msgid ""
 msgstr ""
@@ -7,7 +7,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 13:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: {{ cookiecutter.author }}\n"
+"Last-Translator: {{ cookiecutter.author_name }}\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
