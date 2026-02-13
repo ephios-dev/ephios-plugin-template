@@ -8,6 +8,8 @@ class PluginApp(PluginConfig):
         name = "{{ cookiecutter.app_name }}"
         author = "{{ cookiecutter.author }}"
         description = "{{ cookiecutter.description }}"
+        visible = True
+        force_enabled = False
 
     def ready(self):
         from . import signals  # NOQA
